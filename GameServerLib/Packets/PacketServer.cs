@@ -14,7 +14,7 @@ namespace PacketDefinitions420
     public class PacketServer
     {
         private Host _server;
-        private readonly uint _serverHost = Address.Any;
+        private readonly string _serverHost = "127.0.0.1";
         private Game _game;
         protected const int PEER_MTU = 996;
 
